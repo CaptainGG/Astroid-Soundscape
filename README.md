@@ -1,12 +1,32 @@
-# Astroid-Soundscape
-Visualisation and Sonification of NASA NEO (near Earth objects) Data
-# NEO • Audio-Reactive Asteroid Field
+🌌 Asteroid Soundscape
+A data-art experiment: transforming NASA Near-Earth Object (NEO) data into sound and visuals.
 
-A WebGL visualisation of near-Earth objects (NEOs) driven by **NASA NeoWs** and **Web Audio**.
-Built with **React**, **Three.js** (react-three-fiber & drei), **Python** and **@tonejs/midi**.
 
-- Procedural Earth + atmospheric glow
-- Procedural asteroid textures (canvas) + bump mapping
-- Audio-reactive position, scale, glow & tint
-- Optional demo synth track (no uploads required)
-- MIDI note pulses for labelling
+🚀 Project Overview
+
+This project explores the intersection of astronomy, sound, and generative art.
+It consists of two parts:
+
+Interactive Web Visualizer (React + Three.js)
+
+Fetches real asteroid flyby data from NASA’s NEO API.
+
+Displays asteroids orbiting around Earth in 3D.
+
+Responds in real time to audio (MP3, MIDI).
+
+Hazardous asteroids glow red, while safe ones appear blue-white.
+
+Pulses and color shifts sync with audio amplitude or MIDI note events.
+
+Python Sonification Tool (MIDI Generator)
+
+Converts raw asteroid data into a MIDI composition.
+
+Maps parameters like miss distance → note velocity and velocity → note duration.
+
+Hazardous asteroids trigger drum hits.
+
+Outputs multitrack MIDI that can be loaded into a DAW (Ableton, Logic, FL, etc.) for mixing/exporting.
+
+Together, these create a sonic & visual soundscape of asteroid flybys.
