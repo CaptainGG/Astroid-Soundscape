@@ -31,3 +31,5 @@ It consists of two parts:
   Outputs multitrack MIDI that can be loaded into a DAW (Ableton, Logic, FL, etc.) for mixing/exporting.
 
 **Together, these create a sonic & visual soundscape of asteroid flybys.**
+
+LIVE DEMO: https://2519384.playcode.io/
