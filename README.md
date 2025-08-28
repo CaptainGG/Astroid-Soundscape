@@ -3,7 +3,7 @@ Visualisation and Sonification of NASA NEO (near Earth objects) Data
 # NEO • Audio-Reactive Asteroid Field
 
 A WebGL visualisation of near-Earth objects (NEOs) driven by **NASA NeoWs** and **Web Audio**.
-Built with **React**, **Three.js** (react-three-fiber & drei), Python and **@tonejs/midi**.
+Built with **React**, **Three.js** (react-three-fiber & drei), **Python** and **@tonejs/midi**.
 
 - Procedural Earth + atmospheric glow
 - Procedural asteroid textures (canvas) + bump mapping
