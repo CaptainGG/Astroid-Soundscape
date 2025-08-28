@@ -7,26 +7,26 @@ A data-art experiment: transforming NASA Near-Earth Object (NEO) data into sound
 This project explores the intersection of astronomy, sound, and generative art.
 It consists of two parts:
 
-Interactive Web Visualizer (React + Three.js)
+**Interactive Web Visualizer (React + Three.js)**
 
-Fetches real asteroid flyby data from NASA’s NEO API.
+  Fetches real asteroid flyby data from NASA’s NEO API.
 
-Displays asteroids orbiting around Earth in 3D.
+  Displays asteroids orbiting around Earth in 3D.
 
-Responds in real time to audio (MP3, MIDI).
+  Responds in real time to audio (MP3, MIDI).
 
-Hazardous asteroids glow red, while safe ones appear blue-white.
+  Hazardous asteroids glow red, while safe ones appear blue-white.
 
-Pulses and color shifts sync with audio amplitude or MIDI note events.
+  Pulses and color shifts sync with audio amplitude or MIDI note events.
 
-Python Sonification Tool (MIDI Generator)
+**Python Sonification Tool (MIDI Generator)**
 
-Converts raw asteroid data into a MIDI composition.
+  Converts raw asteroid data into a MIDI composition.
 
-Maps parameters like miss distance → note velocity and velocity → note duration.
+  Maps parameters like miss distance → note velocity and velocity → note duration.
+  
+  Hazardous asteroids trigger drum hits.
 
-Hazardous asteroids trigger drum hits.
+  Outputs multitrack MIDI that can be loaded into a DAW (Ableton, Logic, FL, etc.) for mixing/exporting.
 
-Outputs multitrack MIDI that can be loaded into a DAW (Ableton, Logic, FL, etc.) for mixing/exporting.
-
-Together, these create a sonic & visual soundscape of asteroid flybys.
+**Together, these create a sonic & visual soundscape of asteroid flybys.**
