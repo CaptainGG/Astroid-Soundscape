@@ -1,35 +1,51 @@
-🌌 Asteroid Soundscape
+# 🌌 Asteroid Soundscape
 
-A data-art experiment: transforming NASA Near-Earth Object (NEO) data into sound and visuals.
+A data-art experiment that transforms **NASA Near-Earth Object (NEO)** flyby data into **sound and real-time 3D visuals**.
 
+🔗 **Live Demo:** https://2519384.playcode.io/
 
-🚀 Project Overview
+---
 
-This project explores the intersection of astronomy, sound, and generative art.
-It consists of two parts:
+## 🚀 Overview
 
-**Interactive Web Visualizer (React + Three.js)**
+This project explores the intersection of **astronomy**, **sonification**, and **generative art** through two connected tools:
 
-  Fetches real asteroid flyby data from NASA’s NEO API.
+- **Interactive Web Visualizer** (React + Three.js)
+- **Python Sonification Tool** (MIDI generator)
 
-  Displays asteroids orbiting around Earth in 3D.
+Together, they create a synchronized **sonic + visual soundscape** of asteroid flybys.
 
-  Responds in real time to audio (MP3, MIDI).
+---
 
-  Hazardous asteroids glow red, while safe ones appear blue-white.
+## 🖥️ Interactive Web Visualizer (React + Three.js)
 
-  Pulses and color shifts sync with audio amplitude or MIDI note events.
+- Pulls real asteroid close-approach data from **NASA’s NEO API**
+- Renders asteroids orbiting around Earth in **3D**
+- Reacts in real time to **audio input** (MP3) or **MIDI**
+- Visual encoding:
+  - **Hazardous asteroids** glow **red**
+  - **Non-hazardous asteroids** appear **blue-white**
+- Audio-driven effects:
+  - Pulses and color shifts sync to **amplitude** or **MIDI note events**
 
-**Python Sonification Tool (MIDI Generator)**
+---
 
-  Converts raw asteroid data into a MIDI composition.
+## 🎼 Sonification Tool (Python → MIDI)
 
-  Maps parameters like miss distance → note velocity and velocity → note duration.
-  
-  Hazardous asteroids trigger drum hits.
+- Converts asteroid flyby data into a **multitrack MIDI composition**
+- Maps asteroid parameters into musical features, for example:
+  - **Miss distance → note velocity**
+  - **Velocity → note duration**
+- **Hazardous asteroids** trigger **percussive/drum hits**
+- Exports MIDI files that can be loaded into any DAW:
+  - Ableton, Logic, FL Studio, etc.
 
-  Outputs multitrack MIDI that can be loaded into a DAW (Ableton, Logic, FL, etc.) for mixing/exporting.
+---
 
-**Together, these create a sonic & visual soundscape of asteroid flybys.**
+## ✨ Output
 
-**LIVE DEMO: (https://2519384.playcode.io/)**
+A unified **audio-visual dataset performance**, where asteroid flybys become:
+- **Motion + color** in 3D space
+- **Rhythm + melody** in MIDI-driven sound
+
+---
